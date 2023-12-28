@@ -14,6 +14,8 @@
 		7C64CA762B3C386500C9736A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64CA752B3C386500C9736A /* Person.swift */; };
 		7C64CA792B3C3BED00C9736A /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64CA782B3C3BED00C9736A /* EditPersonView.swift */; };
 		7C64CA7B2B3C531800C9736A /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64CA7A2B3C531800C9736A /* PeopleView.swift */; };
+		7C844C422B3DC51B00945794 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C844C412B3DC51B00945794 /* Event.swift */; };
+		7C844C442B3DD14600945794 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C844C432B3DD14600945794 /* EditEventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		7C64CA752B3C386500C9736A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		7C64CA782B3C3BED00C9736A /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
 		7C64CA7A2B3C531800C9736A /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		7C844C412B3DC51B00945794 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		7C844C432B3DD14600945794 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				7C64CA752B3C386500C9736A /* Person.swift */,
+				7C844C412B3DC51B00945794 /* Event.swift */,
 			);
 			path = DATA;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 				7C64CA682B3C1A4700C9736A /* ContentView.swift */,
 				7C64CA782B3C3BED00C9736A /* EditPersonView.swift */,
 				7C64CA7A2B3C531800C9736A /* PeopleView.swift */,
+				7C844C432B3DD14600945794 /* EditEventView.swift */,
 			);
 			path = VIEWS;
 			sourceTree = "<group>";
@@ -166,7 +172,9 @@
 				7C64CA7B2B3C531800C9736A /* PeopleView.swift in Sources */,
 				7C64CA692B3C1A4700C9736A /* ContentView.swift in Sources */,
 				7C64CA672B3C1A4700C9736A /* FaceFactsApp.swift in Sources */,
+				7C844C422B3DC51B00945794 /* Event.swift in Sources */,
 				7C64CA792B3C3BED00C9736A /* EditPersonView.swift in Sources */,
+				7C844C442B3DD14600945794 /* EditEventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
