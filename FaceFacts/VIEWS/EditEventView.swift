@@ -27,6 +27,15 @@ struct EditEventView: View {
     
 } //end struct
 
-//#Preview {
-//    EditEventView()
-//}
+#Preview {
+    do {
+        let previewer = try Previewer()
+        
+        return EditEventView(event: previewer.event)
+                             
+        .modelContainer(previewer.container)
+    } catch {
+        return Text("Failed to create Preview: \(error.localizedDescription)")
+    }
+
+}

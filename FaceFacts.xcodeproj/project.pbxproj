@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C01FA5C2B3E9644006C9D7B /* Previewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C01FA5B2B3E9644006C9D7B /* Previewer.swift */; };
 		7C64CA672B3C1A4700C9736A /* FaceFactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64CA662B3C1A4700C9736A /* FaceFactsApp.swift */; };
 		7C64CA692B3C1A4700C9736A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64CA682B3C1A4700C9736A /* ContentView.swift */; };
 		7C64CA6B2B3C1A4800C9736A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C64CA6A2B3C1A4800C9736A /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C01FA5B2B3E9644006C9D7B /* Previewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previewer.swift; sourceTree = "<group>"; };
 		7C64CA632B3C1A4700C9736A /* FaceFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C64CA662B3C1A4700C9736A /* FaceFactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceFactsApp.swift; sourceTree = "<group>"; };
 		7C64CA682B3C1A4700C9736A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				7C64CA752B3C386500C9736A /* Person.swift */,
 				7C844C412B3DC51B00945794 /* Event.swift */,
+				7C01FA5B2B3E9644006C9D7B /* Previewer.swift */,
 			);
 			path = DATA;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				7C64CA762B3C386500C9736A /* Person.swift in Sources */,
 				7C64CA7B2B3C531800C9736A /* PeopleView.swift in Sources */,
 				7C64CA692B3C1A4700C9736A /* ContentView.swift in Sources */,
+				7C01FA5C2B3E9644006C9D7B /* Previewer.swift in Sources */,
 				7C64CA672B3C1A4700C9736A /* FaceFactsApp.swift in Sources */,
 				7C844C422B3DC51B00945794 /* Event.swift in Sources */,
 				7C64CA792B3C3BED00C9736A /* EditPersonView.swift in Sources */,
